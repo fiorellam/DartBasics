@@ -13,6 +13,16 @@ void main() {
 
   //La recomendacion es elegir una forma y usarla de la misma manera en el desarrollo de la app
 
+  //Existe Dynamic, es un tipo de dato especial
+  //Dynamic significa que puede ser cualquier tipo de dato
+  //Dynamic por defecto es nulo
+  dynamic errorMessage = 'Hola';
+  errorMessage = true;
+  errorMessage = [1, 2, 3, 4, 5, 6];
+  errorMessage = {1, 2, 3, 4, 5, 6};
+  errorMessage = () => true;
+  errorMessage = null;
+
   //Para imprimir multilineas usamos 3 veces las doble comillas
   print("""
   $pokemon
@@ -20,5 +30,6 @@ void main() {
   $isAlive
   $abilities
   $sprites
+  $errorMessage 
   """);
 }
