@@ -26,5 +26,6 @@ void main() {
   //pokemon.sprites.back o pokemon.sprites.front
   print('Back: ${pokemon['sprites'][2]}');
   print('Front: ${pokemon['sprites'][1]}');
+  print('Pokemons ${pokemons}');
 }
 
